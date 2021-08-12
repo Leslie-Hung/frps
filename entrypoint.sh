@@ -4,13 +4,13 @@ cd /frps
 
 cat <<-EOF > /frps/frps.ini
 [common]
-bind_port = 80
-dashboard_port = 443
+bind_port = 7000
+dashboard_port = 7500
 token = leslie0128
-dashboard_user = root
-dashboard_pwd = root
-vhost_http_port = 10080
-vhost_https_port = 10443
+dashboard_user = leslie0128
+dashboard_pwd = leslie0128
+vhost_http_port = 80
+vhost_https_port = 443
 EOF
 
 echo $PORT
